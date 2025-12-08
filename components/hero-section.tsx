@@ -12,7 +12,7 @@ export function HeroSection() {
           backgroundImage: "url('/modern-construction-site-aerial-view-with-cranes-a.jpg')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-300 via-blue-100 to-blue-80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-80" />
       </div>
 
       {/* Content */}
@@ -74,7 +74,7 @@ export function HeroSection() {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-2 bg-gray-800 rounded-full" />
+          <div className="w-1 h-2 bg-gray-500 rounded-full" />
         </div>
       </div>
     </section>
