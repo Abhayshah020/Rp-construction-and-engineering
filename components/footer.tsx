@@ -92,7 +92,9 @@ export function Footer() {
 
         <div className="mt-12 border-t border-primary-foreground/20 pt-8">
           <p className="text-center text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} RP Construction & Engineering (P.) Ltd. All rights reserved.
+            <a href="https://smsitsolutions.com.au/">
+              © {new Date().getFullYear()} Powered by SMS IT Solutions. All rights reserved.
+            </a>
           </p>
         </div>
       </div>
